@@ -34,7 +34,7 @@ const defaults: Settings = {
   dial_countdown: true,
   language: 'auto',
   verbose_logging: false,
-  check_for_updates: true,
+  check_for_updates: false,
   global_shortcuts_enabled: false,
   local_shortcut_toggle: ' ',
   local_shortcut_reset: 'ArrowLeft',

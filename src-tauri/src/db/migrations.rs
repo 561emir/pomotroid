@@ -54,7 +54,7 @@ const MIGRATION_2: &str = "
 /// Seeds the `check_for_updates` setting for users upgrading from a version
 /// that did not have this setting. Fresh installs get it via seed_defaults.
 const MIGRATION_3: &str = "
-    INSERT OR IGNORE INTO settings (key, value) VALUES ('check_for_updates', 'true');
+    INSERT OR IGNORE INTO settings (key, value) VALUES ('check_for_updates', 'false');
     INSERT INTO schema_version VALUES (3);
 ";
 

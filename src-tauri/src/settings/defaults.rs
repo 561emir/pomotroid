@@ -28,7 +28,7 @@ pub const DEFAULTS: &[(&str, &str)] = &[
     ("websocket_port", "1314"),
     ("language", "auto"),
     ("verbose_logging", "false"),
-    ("check_for_updates", "true"),
+    ("check_for_updates", "false"),
     ("global_shortcuts_enabled", "false"),
     ("short_breaks_enabled", "true"),
     ("long_breaks_enabled", "true"),

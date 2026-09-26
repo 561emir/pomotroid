@@ -119,7 +119,7 @@ impl Default for Settings {
             websocket_port: 1314,
             language: "auto".to_string(),
             verbose_logging: false,
-            check_for_updates: true,
+            check_for_updates: false,
             global_shortcuts_enabled: false,
             local_shortcut_toggle: " ".to_string(),
             local_shortcut_reset: "ArrowLeft".to_string(),
